@@ -27,9 +27,12 @@
       <TableView fx:id="tableViewSeller" prefHeight="349.0" prefWidth="554.0">
         <columns>
           <TableColumn fx:id="tableColumnId" prefWidth="75.0" text="ID" />
-          <TableColumn fx:id="tableColumnName" prefWidth="75.0" text="NAME" />
-            <TableColumn fx:id="tableColumnEDIT" prefWidth="75.0" />
-            <TableColumn fx:id="tableColumnREMOVE" prefWidth="75.0" />
+          <TableColumn fx:id="tableColumnName" prefWidth="104.00000762939453" text="NAME" />
+            <TableColumn fx:id="tableColumnEmail" prefWidth="75.0" text="EMAIL" />
+            <TableColumn fx:id="tableColumnBirthDate" prefWidth="115.99993896484375" text="BIRTH DATE" />
+            <TableColumn fx:id="tableColumnBaseSalary" prefWidth="119.20001220703125" text="BASE SALARY" />
+            <TableColumn fx:id="tableColumnEDIT" prefWidth="37.600006103515625" />
+            <TableColumn fx:id="tableColumnREMOVE" prefWidth="126.39996337890625" />
         </columns>
       </TableView>
    </children>
